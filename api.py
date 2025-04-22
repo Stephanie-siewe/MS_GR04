@@ -4,6 +4,7 @@ import joblib
 from scipy.sparse import hstack
 from dotenv import load_dotenv
 import pandas as pd
+import os
 import psycopg2
 
 load_dotenv()
